@@ -1,0 +1,330 @@
+ html, body, #map-canvas 
+	{ 
+	  height: 100%; 
+	  margin: 0; 
+	  padding: 0;
+	}
+	
+	
+	
+	#txtSearch{
+        background-color: #fff;
+		border:0px;	
+        width: 80%;
+		float:left;
+		margin-top:10px;
+		margin-left:15px;
+		margin-right:0px;
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 300;
+		padding-top:3px;
+		height:22px;;
+        text-overflow: ellipsis;
+      }
+#ddControl{
+        background-color: #fff;
+		border:0px;	
+        width: 135px;
+		margin-top:10px;
+		margin-left:15px;
+		margin-right:0px;
+		text-align:center;
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 300;
+		height:22px;
+		white-space:nowrap;
+      }
+	  .dvText{padding-top:2px;
+		float:left;
+		padding-left:3px;
+		width:80.4%;
+	  }
+	  #dvOrientOptions{z-index:100;position:absolute;heigth:50px;margin-top:25px;}
+	  #dvOrient{border:1px solid grey;
+	  }
+	  
+	  #ddPanel{
+        background-color: #fff;
+		border:0px;	
+        width:180px;
+		margin-top:10px;
+		margin-left:15px;
+		margin-right:0px;
+		text-align:center;
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 300;
+		height:22px;
+		white-space:nowrap;
+		display:none;
+		
+      }
+	  
+	  #infoAdd,#infoConfirm,#dvNameDesign,#infoConfirmReload{
+        background-color: #fff;
+		border:0px;	
+        width:400px;
+		margin-top:10px;
+		margin-left:15px;
+		margin-right:0px;
+		text-align:center;
+        font-family: Roboto;
+        font-size: 15px;
+		font-weight:bold;
+		padding-bottom:10px;
+		padding-top:10px;;
+		min-height:22px;
+		white-space:nowrap;
+		display:none;
+		
+		
+      }
+	  .infoText{background-color: #fff;
+		border:0px;	
+        
+		
+		white-space:nowrap;
+		margin-top:10px;
+		float:left;
+		margin-right:0px;
+		text-align:center;
+        font-family: Roboto;
+        font-size: 12px;
+		font-weight:bold;
+		padding-bottom:5px;
+		
+		}
+#myddOptsPanel{width:175px;}
+.dvFloatLeft{float:left;}
+#ddResults{
+        background-color: #fff;
+		border:0px;	
+		width:220px;
+		margin-top:10px;
+		margin-left:15px;
+		margin-right:40px;
+		
+		text-align:center;
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 300;
+		min-height:22px;
+		
+		white-space:nowrap;
+      }
+	  #dvTrees,#dvCircleTrees,#dvEstimatedShading{
+	    background-color: #fff;
+		border:0px;	
+		width:328px;
+		margin-top:10px;
+		margin-left:15px;
+		margin-right:40px;
+		
+		text-align:center;
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: bold;
+		min-height:22px;
+		padding:10px;
+		display:none;
+		
+		
+	  }
+	  #dvTreeHeight{
+	    background-color: #fff;
+		border:0px;	
+		width:328px;
+		margin-top:10px;
+		margin-left:15px;
+		margin-right:40px;
+		float:left;
+		text-align:left;
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: bold;
+		min-height:22px;
+		padding:10px;
+		display:none;
+		
+		
+	  }
+	  #dvDetails{
+        background-color: #fff;
+		border:0px;	
+		width:300px;
+		margin-top:10px;
+		margin-left:15px;
+		margin-right:40px;
+		
+		text-align:left;
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: bold;
+		min-height:22px;
+		padding:10px;
+		display:none;
+      }
+	  #dvArrayDetails{text-align:left;display:none;float:left;width:210px;padding-top:3px;
+		max-height:580px;
+		overflow-y:scroll;
+		padding-left:5px;
+		padding-right:5px;
+	
+	  }
+.floatRight{float:right;}
+button{
+		background-color:rgb(66,133,244);
+		border:0px;
+		height:22px;
+		color:#fff;
+		width: 58px;margin-top:10px;
+		vertical-align:bottom;
+	}
+	.Include{background-color:rgb(66,133,244);border:0px;
+		height:22px;
+		width: 58px;margin-top:10px;
+		vertical-align:bottom;
+	}
+	.Exclude{background-color:gray;border:0px;
+		height:22px;
+		width: 58px;margin-top:10px;
+		vertical-align:bottom;}
+	.buttonDelete{
+		
+		height:15px;
+		width: 20px;margin-top:5px;
+		vertical-align:bottom;
+		padding:0px;
+		padding-left:3px;
+		
+	}
+	.spnDelete{
+		
+		font-size:10px;
+		width:10px;
+		padding:0px;;
+	}
+	.buttonCircleDelete{
+		
+		height:15px;
+		width: 50px;margin-top:5px;
+		vertical-align:bottom;
+		padding:0px;
+		padding-left:3px;
+		
+	}
+	.btn{width:65px;}
+	.spnCircleDelete{
+		
+		font-size:10px;
+		width:10px;
+		padding:0px;;
+	}
+.buttonDiv{margin-top:3px;}
+.pad7px{margin-bottom:5px;}
+/*button span{	
+		width:30px;
+		float:left;
+		color:white;				
+		
+	}*/
+.arrow-down {
+	height:22px;	
+	width:23px;
+	background-color:rgb(66,133,244);	
+}
+#txtPitch{width:140px;}
+.spnArrowDown{
+	width: 0px; 
+	height:0px;
+	border-left: 9px solid transparent;
+	border-right: 9px solid transparent;
+	border-top: 9px solid #fff;
+	margin-top:7px;
+	margin-left:3px;
+	float:left;
+}
+.spnArrowDown:hover{cursor:pointer !important;}
+
+.dropDownControl{
+    background-color: rgb(255, 255, 255); 
+}   
+
+
+.dropDownOptionsDiv{   
+    display: none;
+	background-color: #fff;
+	border:0px;
+    width: 130px;
+	float:left;
+	padding-top:3px;
+	font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+	min-height:22px;
+	padding-bottom:2px;
+	padding-left:3px;
+	padding-right:2px;
+	white-space:nowrap;
+}
+.dropDownItemDiv{text-align:left;}
+.dropDownItemDiv:hover{
+	background-color:pink;
+	cursor:pointer !important;     
+}
+.padBot3{padding-bottom:7px;}
+.marginRt{margin-left:5px;}
+button:hover{cursor:pointer !important;}
+.txtBold{font-weight:bold;}
+.floatRight{float:right;}
+.marginLeft10{margin-left:10px;}
+.width50{width:50%;}
+.width37{width:37%;}
+.width48{width:48%;}
+#btnSave{width:90px;}
+
+
+/*Auto complete*/
+.controls {
+        margin-top: 16px;
+        border: 1px solid transparent;
+        border-radius: 2px 0 0 2px;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        height: 32px;
+        outline: none;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+      }
+
+      #txtSearch {
+        background-color: #fff;
+        padding: 0 11px 0 13px;
+        width: 400px;
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 300;
+        text-overflow: ellipsis;
+      }
+
+      
+
+      .pac-container {
+        font-family: Roboto;
+      }
+
+      #type-selector {
+        color: #fff;
+        background-color: #4d90fe;
+        padding: 5px 11px 0px 11px;
+      }
+
+      #type-selector label {
+        font-family: Roboto;
+        font-size: 13px;
+        font-weight: 300;
+      }
+	  .overflowCheck{
+		overfloverflow-y:scroll;
+	  }
